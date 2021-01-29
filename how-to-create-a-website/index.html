@@ -1,0 +1,248 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>如何搭建一个网站？ | Hexin_Lin_1024</title>
+<link rel="shortcut icon" href="https://hexin-lin.top/favicon.ico?v=1611886188879">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://hexin-lin.top/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="如何搭建一个网站？ | Hexin_Lin_1024 - Atom Feed" href="https://hexin-lin.top/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="如图
+https://hexin-lin.top/(已强制https)
+
+(Ping 测试结果)
+正是现在看到的这个网站。
+建站第一步
+去买一个域名！(也可以用免费的、附带的域名)
+我去腾讯云买了一个1元的.top(活动)。
+然后进入域名控..." />
+    <meta name="keywords" content="Tech And ICT" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://hexin-lin.top">
+  <img class="avatar" src="https://hexin-lin.top/images/avatar.png?v=1611886188879" alt="">
+  </a>
+  <h1 class="site-title">
+    Hexin_Lin_1024
+  </h1>
+  <p class="site-description">
+    疎香皓齿有馀味，更觉鹤心通杳冥。
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/tech-and-ict" class="menu">
+          科技与计算机
+        </a>
+      
+    
+      
+        <a href="/humanities-and-social-sciences" class="menu">
+          人文与社会科学
+        </a>
+      
+    
+      
+        <a href="/literature" class="menu">
+          文学
+        </a>
+      
+    
+      
+        <a href="/others" class="menu">
+          其他
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          存档
+        </a>
+      
+    
+      
+        <a href="/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              如何搭建一个网站？
+            </h2>
+            <div class="post-info">
+              <span>
+                2021-01-28
+              </span>
+              <span>
+                3 min read
+              </span>
+              
+                <a href="https://hexin-lin.top/tech-and-ict/" class="post-tag">
+                  # Tech And ICT
+                </a>
+              
+            </div>
+            
+              <img class="post-feature-image" src="https://i.loli.net/2021/01/29/tFj4xc7R1XNkaUi.png" alt="">
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <h1>如图</h1>
+https://hexin-lin.top/(已强制https)
+<img src="https://i.loli.net/2021/01/29/tWOQSbHV5FGDZMl.png" >
+(Ping 测试结果)
+正是现在看到的这个网站。
+<h1>建站第一步</h1>
+去买一个域名！(也可以用免费的、附带的域名)
+我去腾讯云买了一个1元的.top(活动)。
+然后进入域名控制台(点击控制台——域名注册)。
+<img src = "https://i.loli.net/2021/01/29/LfHUPQM1hCGneyB.png">
+<h2>第二步</h2>
+准备域名主机或将域名解析到已有域名。
+本人没钱买主机，到GitHub搞了个GitHub Pages。
+<img src = "https://i.loli.net/2021/01/29/FSZQKecWRBD7fwn.png">(直接Create即可)
+<h2>第三步</h3>
+使用CDN加速。
+此处使用Cloudflare免费CDN演示。
+在域名控制台将域名解析到Cloudflare的DNS服务器。
+如图：
+<img src = "https://i.loli.net/2021/01/29/6GyoDzspHJZYkdS.png">(点击解析)
+修改原来的两条为mckenzie.ns.cloudflare.com和kyrie.ns.cloudflare.com。
+<img src = "https://i.loli.net/2021/01/29/we2VEmABkrta31S.png">(点击更多-DNS修改)
+添加两条NS记录，主机记录为@，记录值指向mckenzie.ns.cloudflare.com.和kyrie.ns.cloudflare.com.。(TTL可以大点，3600，解析更快)(不要落了结尾的.)
+<h2>第四步(可省略)</h2>
+去到https://app.netlify.com/，通过github账号登录，并添加一个域名，使他对接你的GitHub仓库，记得选对分支！(略，网上有教程)
+<h2>第五步</h2>
+到Cloudflare官网注册一个账号。
+然后点击添加站点，填入你的域名。
+一路下一步。
+然后会提示还没有将DNS服务器切换，等待一下就好。
+<h2>第六步</h2>
+好了！现在转到DNS，添加A或AAAA记录指向你的主机ip<img src = "https://i.loli.net/2021/01/29/8JSYMN97ofO5KWv.png">也可以添加CHAME记录指向你要解析到的域名。(即.netlify.app后缀的域名)(你也可以直接指向Github Pages的域名)
+同样名称一个填WWW，一个填@，代理状态全部选已代理。(关键步骤，这样才可使流量经过Cloudflare CDN)
+<h2>第七步</h2>
+回到GitHub仓库，点击Settings，下拉找到自定义域名，将其设为购买的域名，点击Save。
+<img src = "https://i.loli.net/2021/01/29/ycKsCvoOkwa1BFh.png">
+<h2>第八步</h2>
+没有第八步。
+<h1>完成</h1>
+好了！可以通过你自己的域名访问你的Github Pages了！
+<img src="https://i.loli.net/2021/01/29/J3aTQkhF6Mub5qj.png">
+<p>另：开启强制https<br>
+可以在网站根目录加添加.htaccess文件，内容：<br>
+RewriteEngine On<br>
+RewriteCond %{HTTPS} !=on<br>
+RewriteRule ^(.*) https://%{SERVER_NAME}/$1 [R,L]</p>
+<p>或者也可在Cloudflare中点击Page Rules——创建规则<br>
+填入以下内容：<br>
+<img src = "https://i.loli.net/2021/01/29/2YRNioTbFLHIKCz.png">然后保存并部署<br>
+照葫芦画瓢，同理添加另一条规则。<br>
+<img src = "https://i.loli.net/2021/01/29/MkduJW9HUYwKqNB.png"></p>
+<p>即可，之后任何通过Http访问的连接都将被自动重定向至Https。</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://hexin-lin.top/model-worker-of-the-times-ling-min-tian/">
+              <h3 class="post-title">
+                时代劳模 : 凌敏天
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Hexin_Lin_1024 内容侵删
+  <a class="rss" href="https://hexin-lin.top/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

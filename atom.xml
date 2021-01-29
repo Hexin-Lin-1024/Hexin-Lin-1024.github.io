@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://hexin-lin.top</id>
+    <title>Hexin_Lin_1024</title>
+    <updated>2021-01-29T02:09:52.142Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://hexin-lin.top"/>
+    <link rel="self" href="https://hexin-lin.top/atom.xml"/>
+    <subtitle>疎香皓齿有馀味，更觉鹤心通杳冥。</subtitle>
+    <logo>https://hexin-lin.top/images/avatar.png</logo>
+    <icon>https://hexin-lin.top/favicon.ico</icon>
+    <rights>All rights reserved 2021, Hexin_Lin_1024</rights>
+    <entry>
+        <title type="html"><![CDATA[如何搭建一个网站？]]></title>
+        <id>https://hexin-lin.top/how-to-create-a-website/</id>
+        <link href="https://hexin-lin.top/how-to-create-a-website/">
+        </link>
+        <updated>2021-01-28T06:41:34.000Z</updated>
+        <content type="html"><![CDATA[<h1>如图</h1>
+https://hexin-lin.top/(已强制https)
+<img src="https://i.loli.net/2021/01/29/tWOQSbHV5FGDZMl.png" >
+(Ping 测试结果)
+正是现在看到的这个网站。
+<h1>建站第一步</h1>
+去买一个域名！(也可以用免费的、附带的域名)
+我去腾讯云买了一个1元的.top(活动)。
+然后进入域名控制台(点击控制台——域名注册)。
+<img src = "https://i.loli.net/2021/01/29/LfHUPQM1hCGneyB.png">
+<h2>第二步</h2>
+准备域名主机或将域名解析到已有域名。
+本人没钱买主机，到GitHub搞了个GitHub Pages。
+<img src = "https://i.loli.net/2021/01/29/FSZQKecWRBD7fwn.png">(直接Create即可)
+<h2>第三步</h3>
+使用CDN加速。
+此处使用Cloudflare免费CDN演示。
+在域名控制台将域名解析到Cloudflare的DNS服务器。
+如图：
+<img src = "https://i.loli.net/2021/01/29/6GyoDzspHJZYkdS.png">(点击解析)
+修改原来的两条为mckenzie.ns.cloudflare.com和kyrie.ns.cloudflare.com。
+<img src = "https://i.loli.net/2021/01/29/we2VEmABkrta31S.png">(点击更多-DNS修改)
+添加两条NS记录，主机记录为@，记录值指向mckenzie.ns.cloudflare.com.和kyrie.ns.cloudflare.com.。(TTL可以大点，3600，解析更快)(不要落了结尾的.)
+<h2>第四步(可省略)</h2>
+去到https://app.netlify.com/，通过github账号登录，并添加一个域名，使他对接你的GitHub仓库，记得选对分支！(略，网上有教程)
+<h2>第五步</h2>
+到Cloudflare官网注册一个账号。
+然后点击添加站点，填入你的域名。
+一路下一步。
+然后会提示还没有将DNS服务器切换，等待一下就好。
+<h2>第六步</h2>
+好了！现在转到DNS，添加A或AAAA记录指向你的主机ip<img src = "https://i.loli.net/2021/01/29/8JSYMN97ofO5KWv.png">也可以添加CHAME记录指向你要解析到的域名。(即.netlify.app后缀的域名)(你也可以直接指向Github Pages的域名)
+同样名称一个填WWW，一个填@，代理状态全部选已代理。(关键步骤，这样才可使流量经过Cloudflare CDN)
+<h2>第七步</h2>
+回到GitHub仓库，点击Settings，下拉找到自定义域名，将其设为购买的域名，点击Save。
+<img src = "https://i.loli.net/2021/01/29/ycKsCvoOkwa1BFh.png">
+<h2>第八步</h2>
+没有第八步。
+<h1>完成</h1>
+好了！可以通过你自己的域名访问你的Github Pages了！
+<img src="https://i.loli.net/2021/01/29/J3aTQkhF6Mub5qj.png">
+<p>另：开启强制https<br>
+可以在网站根目录加添加.htaccess文件，内容：<br>
+RewriteEngine On<br>
+RewriteCond %{HTTPS} !=on<br>
+RewriteRule ^(.*) https://%{SERVER_NAME}/$1 [R,L]</p>
+<p>或者也可在Cloudflare中点击Page Rules——创建规则<br>
+填入以下内容：<br>
+<img src = "https://i.loli.net/2021/01/29/2YRNioTbFLHIKCz.png">然后保存并部署<br>
+照葫芦画瓢，同理添加另一条规则。<br>
+<img src = "https://i.loli.net/2021/01/29/MkduJW9HUYwKqNB.png"></p>
+<p>即可，之后任何通过Http访问的连接都将被自动重定向至Https。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[时代劳模 : 凌敏天]]></title>
+        <id>https://hexin-lin.top/model-worker-of-the-times-ling-min-tian/</id>
+        <link href="https://hexin-lin.top/model-worker-of-the-times-ling-min-tian/">
+        </link>
+        <updated>2020-07-15T06:59:53.000Z</updated>
+        <content type="html"><![CDATA[<p>PRC2020年劳模公布, 来自广东省佛山市顺德区大良街道德胜学校的学生凌敏天入选.<br>
+我们有幸能够与劳模会面, 并对他进行了采访.<br>
+以下为采访内容:<br>
+记者: 您好.<br>
+劳模: 你好, 有话直接说吧, 我还忙着扫地呢.<br>
+记者: 啊... 好的好的. 您已经连续两年当选劳模, 对此您有什么感想吗?<br>
+劳模: 首先我得感谢苏...感谢党和国家选择了我. 我之所以能够获得劳模是因为广大民众的支持. 我将会继续努力, 积极承担责任, 勇于承担不是我们自己选择的责任, 要...<br>
+记者(打断): 好的谢谢您. 您这一年都在学校里做什么呢?<br>
+劳模: 我在继续监督宿舍的清洁, 上一年我批评了一个懒惰的家伙, 今年他勤快多了, 还说什么要和我争劳模.<br>
+记者: 真是尽职尽责呢, 好了, 时间不多了, 我先走了, 再见!<br>
+劳模: 再见!<br>
+(记者走出了B622宿舍, 里面又传出了劳模指挥劳动的号令)</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[明我以德]]></title>
+        <id>https://hexin-lin.top/brighten-me-with-virtues/</id>
+        <link href="https://hexin-lin.top/brighten-me-with-virtues/">
+        </link>
+        <updated>2020-07-12T05:16:25.000Z</updated>
+        <content type="html"><![CDATA[<iframe src = "//music.163.com/outchain/player?type=2&id=307892&auto=0&height=66"></iframe>]]></content>
+    </entry>
+</feed>
