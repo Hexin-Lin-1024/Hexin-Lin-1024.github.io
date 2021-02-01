@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://hexin-lin.com</id>
+    <id>https://hexin-lin.top</id>
     <title>Hexin_Lin_1024</title>
-    <updated>2021-02-01T08:24:20.893Z</updated>
+    <updated>2021-02-01T08:27:29.424Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://hexin-lin.com"/>
-    <link rel="self" href="https://hexin-lin.com/atom.xml"/>
+    <link rel="alternate" href="https://hexin-lin.top"/>
+    <link rel="self" href="https://hexin-lin.top/atom.xml"/>
     <subtitle>疎香皓齿有馀味，更觉鹤心通杳冥。</subtitle>
-    <logo>https://hexin-lin.com/images/avatar.png</logo>
-    <icon>https://hexin-lin.com/favicon.ico</icon>
+    <logo>https://hexin-lin.top/images/avatar.png</logo>
+    <icon>https://hexin-lin.top/favicon.ico</icon>
     <rights>All rights reserved 2021, Hexin_Lin_1024</rights>
     <entry>
         <title type="html"><![CDATA[如何搭建一个网站？]]></title>
-        <id>https://hexin-lin.com/how-to-create-a-website/</id>
-        <link href="https://hexin-lin.com/how-to-create-a-website/">
+        <id>https://hexin-lin.top/how-to-create-a-website/</id>
+        <link href="https://hexin-lin.top/how-to-create-a-website/">
         </link>
         <updated>2021-01-28T06:41:34.000Z</updated>
         <content type="html"><![CDATA[<h1>如图</h1>
@@ -78,8 +78,8 @@ RewriteRule ^(.*) https://%{SERVER_NAME}/$1 [R,L]</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[时代劳模 : 凌敏天]]></title>
-        <id>https://hexin-lin.com/model-worker-of-the-times-ling-min-tian/</id>
-        <link href="https://hexin-lin.com/model-worker-of-the-times-ling-min-tian/">
+        <id>https://hexin-lin.top/model-worker-of-the-times-ling-min-tian/</id>
+        <link href="https://hexin-lin.top/model-worker-of-the-times-ling-min-tian/">
         </link>
         <updated>2020-07-15T06:59:53.000Z</updated>
         <content type="html"><![CDATA[<p>PRC2020年劳模公布, 来自广东省佛山市顺德区大良街道德胜学校的学生凌敏天入选.<br>
@@ -98,8 +98,8 @@ RewriteRule ^(.*) https://%{SERVER_NAME}/$1 [R,L]</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[明我以德]]></title>
-        <id>https://hexin-lin.com/brighten-me-with-virtues/</id>
-        <link href="https://hexin-lin.com/brighten-me-with-virtues/">
+        <id>https://hexin-lin.top/brighten-me-with-virtues/</id>
+        <link href="https://hexin-lin.top/brighten-me-with-virtues/">
         </link>
         <updated>2020-07-12T05:16:25.000Z</updated>
         <content type="html"><![CDATA[<iframe src = "//music.163.com/outchain/player?type=2&id=307892&auto=0&height=66"></iframe>]]></content>
